@@ -16,5 +16,5 @@ a.nav-item {
 
 .nav-link:hover{
     color:#76ABAE;
-    transition: 0.8ms;
+    transition: 1s;
 }
