@@ -3,13 +3,13 @@ body {
     font-family: "Open Sans", sans-serif;
     background-color: #222831;
 }
-div .container{
+div.container{
     color: #31363F;
 
 }
 
 
-.nav-item {
+a.nav-item {
     text-decoration: none;
     color: #EEEEEE ;
 }
