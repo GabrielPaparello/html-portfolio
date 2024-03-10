@@ -4,22 +4,17 @@ body {
     background-color: #222831;
 }
 div .container{
-    display: flex;
     color: #31363F;
-    
+
 }
 
 
-nav {
-    display: inline-block;
-}
-a {
+.nav-item {
     text-decoration: none;
-    size: 40px;
     color: #EEEEEE ;
 }
 
-a:hover{
+.nav-link:hover{
     color:#76ABAE;
     transition: 0.8ms;
 }
