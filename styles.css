@@ -1,26 +1,21 @@
-body{
-    background-color: #222831; 
-  }
-  a {
-    text-decoration: none;
-    color: #EEEEEE;
-      }
-      a:hover {
-    color:#76ABAE; 
-    text-decoration:none; 
-    cursor:pointer;  
-    }
-    div .container {
+body {
+    background-color: #222831;
+}
+div .container{
     color: #31363F;
-    }
+}
 
-    .nav-link { 
-        text-decoration: none;
-        color: #EEEEEE;
-    }
 
-    .nav-link:hover {
-        color:#76ABAE; 
-        text-decoration:none; 
-        cursor:pointer;
-    }
+nav {
+    
+}
+a {
+    text-decoration: none;
+    size: 40px;
+    color: #EEEEEE ;
+}
+
+a:hover{
+    color:#76ABAE;
+    transition: 0.8ms;
+}
