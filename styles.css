@@ -17,9 +17,12 @@ div.container {
 
 ul.nav {
     text-decoration: none;
+    color: #76ABAE;
     
 }
-
+.nav {
+    color: #76ABAE;
+}
 a.nav-item {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
@@ -29,4 +32,6 @@ a.nav-item {
 .nav-link:hover{
     color:#76ABAE;
     transition: 1.8s;
+    text-decoration: underline;
+    text-decoration-color: #76ABAE;
 }
