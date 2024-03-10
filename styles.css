@@ -31,6 +31,7 @@ a.nav-item {
 }
 a.nav-link{
     color: white;!important
+    position: relative;
 }
 .nav-link:hover{
     color:#76ABAE;
@@ -40,3 +41,17 @@ a.nav-link{
     
 }
 
+a.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in;
+}
+a.nav-link:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
