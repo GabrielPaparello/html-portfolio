@@ -8,6 +8,10 @@ div.container{
 
 }
 
+.nav {
+    text-decoration: none;
+    color: #EEEEEE ;
+}
 
 a.nav-item {
     text-decoration: none;
