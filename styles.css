@@ -1,18 +1,21 @@
 html {
     background-color: #222831;
+    color: #222831;
 }
 
 body {
 
     font-family: "Open Sans", sans-serif;
     background-color: #31363F;
-}
-div.container{
     color: #31363F;
+}
+div.container {
+    color: #31363F;
+    background-color: #31363F;
 
 }
 
-.nav {
+ul.nav {
     text-decoration: none;
     color: #EEEEEE ;
     background-color: #EEEEEE;
