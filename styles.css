@@ -30,15 +30,9 @@ a.nav-item {
     
 }
 a.nav-link{
+    display: inline-block;
     color: white;!important
     position: relative;
-}
-.nav-link:hover{
-    color:#76ABAE;
-    transition: all 1.8s;
-    text-decoration: underline;
-    text-decoration-color: #76ABAE;
-    
 }
 
 a.nav-link:after {
@@ -50,6 +44,14 @@ a.nav-link:after {
     left: 0;
     transform-origin: bottom right;
     transition: transform 0.25s ease-in;
+}
+
+.nav-link:hover{
+    color:#76ABAE;
+    transition: all 1.8s;
+    text-decoration: underline;
+    text-decoration-color: #76ABAE;
+    
 }
 a.nav-link:hover::after{
     transform: scaleX(1);
