@@ -17,14 +17,14 @@ div.container {
 
 ul.nav {
     text-decoration: none;
-    color: #EEEEEE ;
+    /* color: #EEEEEE ; */
     /* background-color: #EEEEEE; */
 }
 
 a.nav-item {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
-    color: #EEEEEE ;
+    background-color: #EEEEEE ;
 }
 
 .nav-link:hover{
