@@ -19,6 +19,7 @@ div.container {
 a.nav-item {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
+    position: relative;
     
 }
 a.nav-link{
@@ -29,7 +30,20 @@ a.nav-link{
 }
 
 
-
+.nav-link::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3 ease;
+}
+.nav-link:hover::before{
+    transform: scaleX(1);
+}
 .nav-link:hover{
     color:#76ABAE;
     transition: all 1s ease-in;
