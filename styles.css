@@ -17,7 +17,7 @@ div.container {
 
 ul.nav {
     text-decoration: none;
-    color: #76ABAE;
+    color: #76ABAE;!important
     
 }
 .nav {
@@ -29,7 +29,7 @@ a.nav-item {
     
 }
 .nav-link{
-    color: white;
+    color: white;!important
 }
 .nav-link:hover{
     color:#76ABAE;
