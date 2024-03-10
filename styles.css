@@ -1,13 +1,17 @@
 body {
+
+    font-family: "Open Sans", sans-serif;
     background-color: #222831;
 }
 div .container{
+    display: flex;
     color: #31363F;
+    
 }
 
 
 nav {
-    
+    display: inline-block;
 }
 a {
     text-decoration: none;
