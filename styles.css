@@ -9,6 +9,10 @@ body {
     background-color: #31363F;
     color: #31363F;
 }
+a {
+    color: white;!important
+}
+
 div.container {
     color: #31363F;
     background-color: #31363F;
