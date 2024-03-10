@@ -17,18 +17,18 @@ div.container {
 
 ul.nav {
     text-decoration: none;
-    color: #76ABAE;!important
+    
     
 }
 .nav {
-    color: #76ABAE;
+    
 }
 a.nav-item {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     
 }
-.nav-link{
+a.nav-link{
     color: white;!important
 }
 .nav-link:hover{
