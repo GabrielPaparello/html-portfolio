@@ -1,0 +1,15 @@
+body{
+    background-color: #222831; 
+  }
+  a {
+    text-decoration: none;
+    color: #EEEEEE;
+      }
+      a:hover {
+    color:#76ABAE; 
+    text-decoration:none; 
+    cursor:pointer;  
+    }
+    div .container {
+    color: #31363F;
+    }
