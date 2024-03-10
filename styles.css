@@ -32,7 +32,7 @@ a.nav-link{
 
 .nav-link:hover{
     color:#76ABAE;
-    transition: all 1.8s ease-in;
+    transition: all 1s ease-in;
     text-decoration: underline;
     text-decoration-color: #76ABAE;
     
