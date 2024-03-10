@@ -24,7 +24,7 @@ ul.nav {
 a.nav-item {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
-    color: #EEEEEE ;
+    /* color: #EEEEEE ; */
 }
 
 .nav-link:hover{
