@@ -16,44 +16,25 @@ div.container {
 
 }
 
-ul.nav {
-    text-decoration: none;
-    
-    
-}
-.nav {
-    
-}
 a.nav-item {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     
 }
 a.nav-link{
-    display: inline-block;
+    
     color: white;!important
-    position: relative;
+    text-decoration: none;
+    
 }
 
-a.nav-link:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-in;
-}
+
 
 .nav-link:hover{
     color:#76ABAE;
-    transition: all 1.8s;
+    transition: all 1.8s ease-in;
     text-decoration: underline;
     text-decoration-color: #76ABAE;
     
 }
-a.nav-link:hover::after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
+
