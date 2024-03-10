@@ -9,9 +9,6 @@ body {
     background-color: #31363F;
     color: #31363F;
 }
-a {
-    color: white;!important
-}
 
 div.container {
     color: #31363F;
@@ -37,8 +34,9 @@ a.nav-link{
 }
 .nav-link:hover{
     color:#76ABAE;
-    transition: 1.8s;
+    transition: all 1.8s;
     text-decoration: underline;
     text-decoration-color: #76ABAE;
-    text-
+    
 }
+
