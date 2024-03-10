@@ -13,3 +13,14 @@ body{
     div .container {
     color: #31363F;
     }
+
+    .nav-link { 
+        text-decoration: none;
+        color: #EEEEEE;
+    }
+
+    .nav-link:hover {
+        color:#76ABAE; 
+        text-decoration:none; 
+        cursor:pointer;
+    }
