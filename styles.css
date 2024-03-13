@@ -12,6 +12,7 @@ body{
 
 
 nav {
+    margin: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +29,7 @@ nav {
 }
 .navBar  a {
     text-decoration: 0;
-    size: 2rem;
+    size: 8rem;
     color: #F9E8C9;
 }
 
