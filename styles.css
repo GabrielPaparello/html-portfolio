@@ -7,7 +7,7 @@ body{
 }
 
 .header-container{
-    background-color: #1D24CA;  
+    background-color: #1D24CA; 
 }
 
 
@@ -28,7 +28,7 @@ nav {
 }
 .navBar  a {
     text-decoration: 0;
-    size: 30px;
+    size: 2rem;
     color: #F9E8C9;
 }
 
