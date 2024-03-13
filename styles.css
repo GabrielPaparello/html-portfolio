@@ -27,7 +27,7 @@ nav {
 
 
 .navBar li {
-    display: inline-block;
+    display: inline;
     list-style: none;
 }
 .navBar  a {
@@ -37,22 +37,20 @@ nav {
     position: relative;
 }
 
-.navBar a::after{
+.navBar ul li a::after{
     position: absolute;
     content: " ";
     width: 100%;
     height: 3px;
-    padding-top: 2px;
     left: 0;
     bottom: -3px;
     color: #fff;   
 }
 
-.navBar a:hover::after{
+.navBar ul li a:hover::after{
     content: " ";
     width: 0%;
     height: 3px;
-    padding-top: 2px;
     color: #201658;
     transition: 0.5s;
 }
