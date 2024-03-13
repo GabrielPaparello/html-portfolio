@@ -4,7 +4,7 @@
     background-color: #201658;
 }
 
-header-container{
+.header-container{
     display: flex;  
     color: #1D24CA;  
 }
