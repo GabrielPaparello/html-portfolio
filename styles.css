@@ -21,13 +21,14 @@ nav {
 
 
 .navBar li {
+    display: inline-block;
     text-decoration: 0;
     list-style: none;
     position: relative;
 }
-.navBar li a {
+.navBar  a {
     text-decoration: 0;
-    size: 20px;
+    size: 30px;
     color: #F9E8C9;
 }
 
