@@ -8,11 +8,10 @@
     margin: 0;
 }
 body{
-    background-color: #F9E8C9;
+    background-color: #000000;
 }
 
 .header-container{
-    background-color: #98ABEE; 
 }
 
 
@@ -33,8 +32,8 @@ nav {
 .navBar  a {
     text-decoration: 0;
     font-size: 2rem;
-    color: #F6995C;
     position: relative;
+    color: #40A2D8;
 }
 
 .navBar ul li a::after{
@@ -44,13 +43,13 @@ nav {
     height: 3px;
     left: 0;
     bottom: -3px;
-    background-color: #E8C872;   
+    background-color: #F0EDCF;   
 }
 
 .navBar ul li a:hover::after{
     content: " ";
     width: 100%;
     height: 3px;
-    color: #E8C872;
+    color: #F0EDCF;
     transition: 0.5s;
 }
