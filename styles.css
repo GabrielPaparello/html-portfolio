@@ -43,7 +43,7 @@ nav {
     height: 3px;
     left: 0;
     bottom: -3px;
-    color: #fff;   
+    background-color: #fff;   
 }
 
 .navBar ul li a:hover::after{
