@@ -41,7 +41,7 @@ nav {
 
 .navBar a:hover{
     color: #FF4365;
-    background-color: #FFAA5A;
+    background: #FFAA5A;
 }
 
 .navBar ul li a::after{
