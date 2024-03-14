@@ -20,7 +20,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: .5rem;
 }
 
 
@@ -28,6 +27,7 @@ nav {
 .navBar li {
     display: inline;
     list-style: none;
+    padding: 0.8rem;
 }
 .navBar  a {
     text-decoration: 0;
