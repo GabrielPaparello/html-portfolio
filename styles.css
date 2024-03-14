@@ -5,6 +5,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Source Code Pro", monospace;
 }
 body{
     background-color: #2B4141;
@@ -16,14 +17,12 @@ body{
 }
 
 
-
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 
 
 .navBar li {
