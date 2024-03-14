@@ -86,6 +86,7 @@ nav {
     
 }
 .contentBtn {
+    display: block;
     color: #030301;
     background: #FFAA5A;
     text-align: center;
