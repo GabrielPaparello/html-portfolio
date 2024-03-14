@@ -53,3 +53,7 @@ nav {
     color: #F0EDCF;
     transition: 0.5s;
 }
+
+.hidden{
+    visibility: hidden;
+}
