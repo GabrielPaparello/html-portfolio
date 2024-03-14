@@ -82,11 +82,11 @@ nav {
     flex-wrap: wrap;
 }
 .content{
-    display: flex;
-    
+    flex-direction: column;
 }
+
+
 .contentBtn {
-    display: block;
     color: #030301;
     background: #FFAA5A;
     text-align: center;
