@@ -77,3 +77,9 @@ nav {
     display: flex;
     box-shadow: 0 5px 15px grey(0,0,0,0.1);
 }
+
+.contentBtn {
+    background: #FFAA5A;
+    text-align: center;
+    border-radius: 20px;
+}
