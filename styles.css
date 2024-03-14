@@ -70,7 +70,7 @@ nav {
 
 .contentBox{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     position: relative;
     width: 600px;
     height: 400px;
