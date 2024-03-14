@@ -1,14 +1,13 @@
-/* colors #201658
-#1D24CA
-#98ABEE
-#F9E8C9 */
+/* colors #2B4141 
+          #9395D3 
+          #C8C2AE */
 
 *{
     padding: 0;
     margin: 0;
 }
 body{
-    background-color: #000000;
+    background-color: #2B4141;
 }
 
 .hidden{
@@ -36,7 +35,7 @@ nav {
     text-decoration: 0;
     font-size: 2rem;
     position: relative;
-    color: #40A2D8;
+    color: #C8C2AE;
 }
 
 .navBar ul li a::after{
@@ -46,14 +45,14 @@ nav {
     height: 3px;
     left: 0;
     bottom: -3px;
-    background-color: #F0EDCF;   
+    background-color: #9395D3;   
 }
 
 .navBar ul li a:hover::after{
     content: " ";
     width: 100%;
     height: 3px;
-    color: #F0EDCF;
+    color: #9395D3;
     transition: 0.5s;
 }
 
