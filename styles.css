@@ -28,7 +28,7 @@ nav {
 .navBar li {
     display: inline;
     list-style: none;
-    padding: 0.8rem;
+    margin-top: .5rem;
 }
 .navBar  a {
     text-decoration: 0;
@@ -41,6 +41,7 @@ nav {
 
 .navBar a:hover{
     color: #FF4365;
+    background-color: #FFAA5A;
 }
 
 .navBar ul li a::after{
