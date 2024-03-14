@@ -11,6 +11,9 @@ body{
     background-color: #000000;
 }
 
+.hidden{
+    visibility: hidden;
+}
 
 
 
@@ -53,6 +56,3 @@ nav {
     transition: 0.5s;
 }
 
-.hidden{
-    visibility: hidden;
-}
