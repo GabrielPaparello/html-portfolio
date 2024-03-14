@@ -92,4 +92,5 @@ nav {
     background: #FFAA5A;
     text-align: center;
     border-radius: 20px;
+    width: max-content;
 }
