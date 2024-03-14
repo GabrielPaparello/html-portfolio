@@ -77,7 +77,11 @@ nav {
     display: flex;
     box-shadow: 0 5px 15px grey(0,0,0,0.1);
 }
-
+.content{
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
 .contentBtn {
     background: #FFAA5A;
     text-align: center;
