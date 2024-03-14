@@ -45,7 +45,9 @@ nav {
     height: 3px;
     left: 0;
     bottom: -3px;
-    background-color: #9395D3;   
+    background-color: #9395D3;
+    color: #9395D3;   
+
 }
 
 .navBar ul li a:hover::after{
