@@ -69,13 +69,13 @@ nav {
 }
 
 .contentBox{
+    display: flex;
     flex-direction: column;
     position: relative;
     width: 600px;
     height: 400px;
     background-color: #93FF96;
     border-radius: 20px;
-    display: flex;
     box-shadow: 0 5px 15px grey(0,0,0,0.1);
     align-items: center;
     justify-items: center;
