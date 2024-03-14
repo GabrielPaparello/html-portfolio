@@ -78,11 +78,14 @@ nav {
     box-shadow: 0 5px 15px grey(0,0,0,0.1);
 }
 .content{
+    display: flex;
     align-items: center;
     justify-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .contentBtn {
+    color: #030301;
     background: #FFAA5A;
     text-align: center;
     border-radius: 20px;
