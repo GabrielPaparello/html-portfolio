@@ -10,7 +10,9 @@
 body{
     background-color: #030301;
 }
-
+#headerContainer{
+display: none;          
+}
 .hidden{
     visibility: hidden;
     display: none;
