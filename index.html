@@ -83,13 +83,7 @@
 <!--------------------educacion----------------------------->
 
   <!-- /ss/**---------------educacion------------------**// -->
-<script>
-  const headerContainer = document.querySelector('.headerContainer');
-  window.onload = function (){
-    setTimeout(function(){
-      headerContainer.classList.add("hidden")
-    }, 1000)
-  }
+<script> 
   const popup = document.querySelector('.popup');
   window.onload = function (){
     setTimeout(function(){
@@ -99,7 +93,7 @@
   
   function closePopup(){
     popup.classList.remove("open-popup")
-    headerContainer.classList.remove("hidden")
+    document.getElementById("headerContainer").style.display = "inline"
   }
 </script>
 </body>
