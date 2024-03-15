@@ -121,8 +121,9 @@ nav {
           white-space: nowrap;
           overflow: hidden;
           border-right: 5px solid;
+          animation-delay: 2s;
           animation: 
-                    typing 3s steps(20),
+                    typing .3s steps(20),
                     cursor .4s step-end infinite alternate;
           
 }
