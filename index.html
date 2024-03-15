@@ -12,7 +12,7 @@
 <body>
 <!-- ---------------header------------------ -->
 <div  id="home">
-  <div id="home" class="hidden" class="header-container">
+  <div id="headerContainer" id="home" class="hidden" class="headerContainer">
     <nav class="navBar">
       <img src="..." alt="logo" class="logo">
         <ul>
@@ -90,7 +90,7 @@
       popup.classList.add("open-popup")
     }, 2000)
   }
- let home = document.querySelector('.header-container');
+ let headerContainer = document.querySelector('.headerContainer');
   function closePopup(){
     popup.classList.remove("open-popup")
     home.classList.remove("hidden")
