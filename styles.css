@@ -1,5 +1,6 @@
 /* colors #2B4141 
           #9395D3 
+background-color: #030301;
           #C8C2AE */
 
 *{
@@ -8,7 +9,9 @@
     font-family: "Source Code Pro", monospace;
 }
 body{
-    background-color: #030301;
+    background-image: url('background.jpeg');
+          background-size: cover;
+    
 }
 #headerContainer{
 display: none;     
