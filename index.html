@@ -12,7 +12,7 @@
 <body>
 <!-- ---------------header------------------ -->
 <div  id="home">
-  <div class="hidden" class="header-container">
+  <div id="home" class="hidden" class="header-container">
     <nav class="navBar">
       <img src="..." alt="logo" class="logo">
         <ul>
@@ -33,8 +33,8 @@
   <div class="contentBox">
     <div class="content">
       <h2 class="contentH2">Select your Language</h2>
-      <button class="contentBtn">English</button>
-      <button class="contentBtn">Spanish</button>
+      <button tybe="button" onclick="closePopup" class="contentBtn">English</button>
+      <button type="button" onclick="closePopup" class="contentBtn">Spanish</button>
     </div>
 
   </div>
@@ -89,6 +89,11 @@
     setTimeout(function(){
       popup.classList.add("open-popup")
     }, 2000)
+  }
+ let home = document.querySelector('.home');
+  function closePopup(){
+    popup.classList.remove("open-popup")
+    home.classList.remove("hidden")
   }
 </script>
 </body>
