@@ -91,7 +91,7 @@ nav {
     height: 400px;
     background-color: #93FF96;
     border-radius: 20px;
-    box-shadow: -1px 19px 5px -7px rgba(255,255,255,0.77);
+    box-shadow: -5px 5px 5px 0px rgba(53,189,11,1);
     align-items: center;
     justify-items: center;
     justify-content: center;
@@ -119,10 +119,8 @@ nav {
                     flex-direction: column;}
           .navBar li {
                     display: block;
-                    flex-direction: column;
+                    background: #76ABAE;
           }
-          nav a {
-                    flex-direction:column;}
           .contentBox{
                     width: 300px;
                     height: 200px;
