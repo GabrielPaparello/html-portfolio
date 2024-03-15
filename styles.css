@@ -119,7 +119,7 @@ nav {
                     flex-direction: column;}
           .navBar li {
                     display: block;
-                    background: #76ABAE;
+                    witdh: 100%;
           }
           .contentBox{
                     width: 300px;
