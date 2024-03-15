@@ -113,6 +113,17 @@ nav {
     text-align: center;
     border-radius: 20px;
     width: 6rem;
+} 
+
+.contentH2{
+          witdh: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          border-right: 10px solid;
+          animation: 
+                    tiping 2s steps(20);
+                    cursor .4s step-end infinite alternate;
+          
 }
 
 
