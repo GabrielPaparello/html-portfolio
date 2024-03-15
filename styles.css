@@ -11,6 +11,8 @@ background-color: #030301;
 body{
     background-image: url('background.jpeg');
           background-size: cover;
+          background-size: 100%;
+          background-size: 100%
     
 }
 #headerContainer{
