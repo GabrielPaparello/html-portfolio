@@ -18,7 +18,7 @@ body{
 
 .show{
     visibility: visible;
-    display: block;
+    display: inline
 }
 
 
