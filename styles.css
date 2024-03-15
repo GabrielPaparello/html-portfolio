@@ -16,6 +16,11 @@ body{
     display: none;
 }
 
+.show{
+    visibility: visible;
+    display: block;
+}
+
 
 nav {
     display: flex;
