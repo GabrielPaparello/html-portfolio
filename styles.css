@@ -116,12 +116,12 @@ nav {
 } 
 
 .contentH2{
-          witdh: 100%;
+          width: 100%;
           white-space: nowrap;
           overflow: hidden;
           border-right: 10px solid;
           animation: 
-                    tiping 2s steps(20);
+                    typing 2s steps(20),
                     cursor .4s step-end infinite alternate;
           
 }
@@ -141,7 +141,7 @@ nav {
                     flex-direction: column;}
           .navBar li {
                     display: block;
-                    witdh: 100%;
+                    width: 100%;
           }
           .contentBox{
                     width: 300px;
