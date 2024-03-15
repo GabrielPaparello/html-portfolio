@@ -11,7 +11,8 @@ body{
     background-color: #030301;
 }
 #headerContainer{
-display: none;          
+display: none;     
+visibility: hidden;          
 }
 .hidden{
     visibility: hidden;
