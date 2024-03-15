@@ -109,3 +109,15 @@ nav {
     border-radius: 20px;
     width: 6rem;
 }
+
+
+
+
+
+@media (max-width : 767px){
+          nav {
+                    flex-direction: column;}
+          .contentBox{
+                    width: 300px;
+                    height: 400px;}
+}
