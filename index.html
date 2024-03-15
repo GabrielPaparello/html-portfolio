@@ -88,7 +88,7 @@
   window.onload = function (){
     setTimeout(function(){
       headerContainer.classList.add("hidden")
-    },)
+    }, 0)
   }
   const popup = document.querySelector('.popup');
   window.onload = function (){
@@ -96,7 +96,7 @@
       popup.classList.add("open-popup")
     }, 1000)
   }
-  let headerContainer = document.querySelector('.headerContainer');
+  
   function closePopup(){
     popup.classList.remove("open-popup")
     headerContainer.classList.remove("hidden")
