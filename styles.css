@@ -116,6 +116,7 @@ nav {
 } 
 
 .contentH2{
+          font-size: 20px;
           width: 100%;
           white-space: nowrap;
           overflow: hidden;
