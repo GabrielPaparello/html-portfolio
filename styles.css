@@ -114,6 +114,10 @@ nav {
     border-radius: 20px;
     width: 6rem;
 } 
+.contentImg {
+           width: 200px;
+          height: 400px;
+}
 
 .contentH2{
           font-size: 20px;
