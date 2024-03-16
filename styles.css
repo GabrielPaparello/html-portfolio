@@ -106,7 +106,10 @@ nav {
     flex-direction: column;
 }
 
-
+.img {
+          width: 20px;
+          height: 60px;
+}
 .contentBtn {
     color: #030301;
     background: #FFAA5A;
