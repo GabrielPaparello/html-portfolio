@@ -122,7 +122,7 @@ nav {
           overflow: hidden;
           border-right: 5px solid;
           animation: 
-                    typing  10s steps(15),
+                    typing  2s steps(15),
                     cursor .4s step-end infinite alternate;
           
 }
