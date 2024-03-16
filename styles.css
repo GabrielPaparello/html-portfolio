@@ -106,7 +106,7 @@ nav {
     flex-direction: column;
 }
 .contentImg {
-          flex-direction: column;
+          flex-direction: row;
 }
 .img {
           width: 200px;
