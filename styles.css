@@ -105,10 +105,12 @@ nav {
 .content{
     flex-direction: column;
 }
-
+.contentImg {
+          flex-direction: column;
+}
 .img {
-          width: 20px;
-          height: 60px;
+          width: 200px;
+          height: 400px;
 }
 .contentBtn {
     color: #030301;
@@ -117,10 +119,6 @@ nav {
     border-radius: 20px;
     width: 6rem;
 } 
-.contentImg {
-           width: 200px;
-          height: 400px;
-}
 
 .contentH2{
           font-size: 20px;
