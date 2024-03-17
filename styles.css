@@ -92,6 +92,7 @@ nav {
 
 /* --------------------------------popup modal -------------------------------*/
 .popup{
+    height: 100vh;
     position: fixed;
     top: 0%;
     left: 50%;
