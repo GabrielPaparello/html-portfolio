@@ -241,5 +241,15 @@ nav {
                     height: 200px;
                     font-size: 10px;
           }
+    body {
+        width:100%;
+        height: auto;
+    }
+    .popup{
+        margin: auto
+        height:100vh;
+        aling-items: center;
+        justify-contents: center;
+    }
 }
 /*-------------------------------- responsive ------------------------*/
