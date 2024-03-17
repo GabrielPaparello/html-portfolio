@@ -12,6 +12,8 @@ body{
     background-size: cover;
     max-width: 100%;
     height: auto;
+    overflow-x: hidden;
+    background-width: 100%;
           
     
 }
