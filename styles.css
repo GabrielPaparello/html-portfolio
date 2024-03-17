@@ -103,7 +103,7 @@ nav {
 
 .contentBox{
     display: flex;
-    position: relative;
+    position: absolute;
     width: 600px;
     height: 400px;
     border-radius: 20px;
