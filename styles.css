@@ -169,7 +169,7 @@ nav {
     border-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 .about{
@@ -252,7 +252,7 @@ nav {
           .about-container{
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-bet;
             padding-right: 0;
           }
           .about h1 {
