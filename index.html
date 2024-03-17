@@ -2,69 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+ <!-- FONTS -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Gabriel Portfolio</title>
 </head>
 <body>
+
+<!-- //**---------------popup------------------**// -->
+<div class="popup" id="popup">
+  <div class="contentBox">
+      <img src="pree.png" alt="otacon" class="img" id="popImg">
+    <div class="content">
+      <p class="contentH2">Select your Language.</p>
+      <button tybe="button" onclick="closePopup()" id="BTN" class="contentBtn">English</button>
+      <button type="button" onclick="closePopup()" id="BTN" class="contentBtn">Spanish</button>
+    </div>
+  </div>
+</div>
+<!-- //**-----------=----popup------------------**// -->
+
 <!-- ---------------header------------------ -->
 <div class="home">
   <div class="headerContainer" id="headerContainer">
     <nav class="navBar">
-      <img src="..." alt="logo" class="logo">
+      <img src="g.png" alt="logo" class="logo">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="projects.html">Proyectos</a></li>
           <li><a href="educacion.html">Educacion</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#id">Tecnologias</a></li>
-          
+          <li><a href="#id">Tecnologias</a></li>     
         </ul>
     </nav>
-
-
-  </div>
-<!-- //**---------------header------------------**// -->
-<!-- //**---------------popup------------------**// -->
-<div class="popup" id="popup">
-  <div class="contentBox">
-    <div class="imgContainer">
-      <img src="png-transparent-metal-gear-solid-v-the-phantom-pain-solid-snake-metal-gear-survive-metal-gear-solid-2-sons-of-liberty-others-face-video-game-head-thumbnail.png" alt="otacon" class="img">
-    <div class="content">
-      <p class="contentH2">Select your Language</p>
-      <button tybe="button" onclick="closePopup()" class="contentBtn">English</button>
-      <button type="button" onclick="closePopup()" class="contentBtn">Spanish</button>
-    </div>
-
   </div>
 </div>
-<!-- //**-----------=----popup------------------**// -->
+<!-- //**---------------header------------------**// -->
+
+
 
 <!--------------------about----------------------------->
 
-  <section class="hidden" class="about-container" id="about" >
-    <div class="about">
-      <img src="imagen-mia" alt="imagen-mia">
-      <p>Texto acerca de mi.... do ex amet tempor exercitation et pariatur ex
-        ercitation.Esse proident excepteur occaecat id qui excepteur tempor qui duis e
-        xercitation voluptate veniam deserunt labore. Irure ipsum anim commodo e
-        st proident pariatur enim cupidatat non enim cillum veniam. Sunt occaecat
-        laboris est ad do. Commodo consequat enim adipisicing do in magna deserunt
-          cillum exercitation. Ullamco commodo amet deserunt ea consequat consectetur
-          laboris nostrud sit non eiusmod. Voluptate Lorem adipisicing anim officia c
-          ulpa dolor esse in reprehenderit culpa.</p>
-    </div>
-</section>
+<div class="about-container" id="about">
+  <div class="about">
+    <h1>Welcome</h1>
+    <h2>&nbspIm Gabriel</h2>
+    <h2>A full stack webdeveloper</h2>
+  </div>
+  <div class="imgContain"><img src="yo1.png" alt="imagen-mia">
+    <p>Texto acerca de mi.... do ex amet <br>tempor exercitation et pariatur ex
+      ercitation.Esse proident excepteur occaecat <br> id qui excepteur tempor qui duis e
+    </p>
+  </div>
+  
+</div>
   <!-- //**---------------about------------------**// -->
 
 
 <!--------------------projects----------------------------->
 
 
-  <section class="hidden" class="projects-container" id="projects" >
+  <div class="hidden" class="projects-container" id="projects" >
     <div class="projects" class="hidden">
       <div><img src="..." alt="project1"></div>
       <p>Descripcion del projecto</p>
@@ -77,7 +79,7 @@
 
 
     </div>
-  </section>
+  </div>
 
   <!-- //**------------------projects------------------**// -->
 
@@ -86,18 +88,38 @@
 
   <!-- /ss/**---------------educacion------------------**// -->
 <script> 
+
+// ----------------------- MODAL POPUP-----------------//
   const popup = document.querySelector('.popup');
   window.onload = function (){
     setTimeout(function(){
       popup.classList.add("open-popup")
-    }, 500)
+    }, 50)
   }
-  
+// ----------------------- MODAL POPUP-----------------//
+
+
+  // ---------------------MODAL POPUP CLOSE FUNCTION---------------//
   function closePopup(){
-    popup.classList.remove("open-popup")
-    document.getElementById("headerContainer").style.display = "inline"
-    document.getElementById("headerContainer").style.visibility = "visible"
+    var img = document.getElementById('popImg');
+    img.src = 'otacon1.png';
+    document.getElementById("BTN").style.color = "rgb(197, 144, 197)";
+    document.getElementById("BTN").style.background = "rgb(86, 31, 89)";
+    setTimeout(() => {
+      closeclose();
+    }, 2000);
   }
+
+
+
+  function closeclose(){
+    popup.classList.remove("open-popup")
+    document.getElementById("headerContainer").style.visibility = "visible"
+    document.getElementById("about").style.visibility = "visible"
+    }
+  
+  // ---------------------MODAL POPUP CLOSE FUNCTION---------------//
+
 </script>
 </body>
 </html>
