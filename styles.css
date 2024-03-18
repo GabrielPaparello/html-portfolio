@@ -29,7 +29,8 @@ body{
 
 /* -------------------------------------nav------------------------------ */
 #headerContainer{
-visibility: hidden;          
+visibility: hidden; 
+    display:flex
 }
 
 .navBar img{
