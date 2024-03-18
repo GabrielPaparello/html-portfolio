@@ -192,7 +192,7 @@ nav {
 
 
 .about {
-    padding-right: 10rem;
+    /*padding-right: 10rem;*/
     background-color: #000000a7;
 }
 .about h1 {
@@ -245,6 +245,9 @@ nav {
           .navBar li  {
             /*padding: 15px;*/
           }
+    .popup{
+        flex-direction: column;
+    }
           .contentBox{
                     width: 100px;
                     height: 100vh;
