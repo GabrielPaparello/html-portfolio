@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
     font-family: "Josefin slab", sans-serif;
-    
+    box-sizing: border-box;
 }
 body{
     /* background-color: #008DDA; */
-    
+    background-color: #fefefefe;
     /* background-position: center; */
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
@@ -29,8 +29,7 @@ body{
 
 /* -------------------------------------nav------------------------------ */
 #headerContainer{
-visibility: hidden; 
-    display:flex
+visibility: hidden;          
 }
 
 .navBar img{
@@ -51,7 +50,7 @@ nav {
     flex-wrap: wrap;
     height: 4rem;
 }
-.navBar li {
+.navBar ul {
     display: inline-flex;
     list-style: none;
 }
@@ -102,19 +101,20 @@ nav {
 .open-popup{
     visibility: visible;
     top: 50%;
+    
     transform: translate(-50%, -50%) scale(1);
 }
 
 .contentBox{
     display: flex;
     position: relative;
-    width: 600px;
-    height: 400px;
+    /* width: 600px;
+    height: 400px; */
     border-radius: 20px;
     box-shadow: -5px 5px 5px 0px rgb(12, 15, 11);
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 .content{
     display: flex;
@@ -166,11 +166,10 @@ nav {
 }
 
 .about-container{
-    background-image: url(back.png);
     border-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 .about{
@@ -183,7 +182,9 @@ nav {
 }
 
 .imgContain img {
-    height: 50rem;
+    height: 50vh;
+    object-fit: contain;
+    
     /* margin-top: 5rem; */
     border-radius: 70px;
     box-shadow: -2px 2px 15px 6px rgba(255,255,255,0.98);
@@ -192,7 +193,7 @@ nav {
 
 
 .about {
-    padding-right: 10rem;
+    /* padding-right: 10rem; */
     background-color: #000000a7;
 }
 .about h1 {
@@ -237,28 +238,44 @@ nav {
 /* -------------------------responsive-------------------------- */
 @media (max-width : 767px){
           nav {
-                    flex-direction: column;}
-          .navBar li {
-                    display: block;
-                    width: 100%;
+                    flex-direction: column;
+                justify-content: center;
+            align-items: center;
+            height: 40vh;
+        }
+          .navBar ul {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    /* width: 100%; */
           }
+          
           .navBar li  {
             padding: 15px;
           }
-    
-          .contentBox{
-                    width: 100px;
-                    
-                    font-size: 10px;
+
+          .popup{
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 0;
+            height: 100hv;
           }
-    .contentBox img {
-        width: 200px;
-        height: 300px;
-    }
+          .contentBox{ 
+                    display: flex;               
+                    flex-wrap: wrap;
+          }
+          .content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
           .about-container{
             flex-direction: column;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             padding-right: 0;
           }
           .about h1 {
