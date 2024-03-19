@@ -7,13 +7,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
  <!-- FONTS -->
+ <!-- ICON -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- ICON -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Gabriel Portfolio</title>
 </head>
 <body>
 
-<!-- //**---------------popup------------------**// -->
+
+
+<!-- //******************---------POPUP-------**************************// -->
 <div class="popup" id="popup">
   <div class="contentBox">
       <img src="pree.png" alt="otacon" class="img" id="popImg">
@@ -24,28 +29,48 @@
     </div>
   </div>
 </div>
-<!-- //**-----------=----popup------------------**// -->
+<!-- //******************---------POPUP-------**************************// -->
 
-<!-- ---------------header------------------ -->
+
+<span class="material-symbols-outlined">
+  menu
+  </span>
+
+<!-- //******************---------NAV HEADER-------**************************// -->
 <div class="home">
   <div class="headerContainer" id="headerContainer">
     <nav class="navBar">
       <img src="g.png" alt="logo" class="logo">
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="projects.html">Proyectos</a></li>
-          <li><a href="educacion.html">Educacion</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#id">Tecnologias</a></li>     
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Educacion</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Tecnologias</a></li>     
         </ul>
     </nav>
   </div>
 </div>
-<!-- //**---------------header------------------**// -->
+<!-- //******************---------NAV HEADER-------**************************// -->
+
+<!-- //******************---------DROPDOWN NAV HEADER-------**************************// -->
+
+<div class="dropdown">
+  <button onclick="dropdown()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Home</a>
+    <a href="#">Proyectos</a>
+    <a href="#">Educacion</a>
+    <a href="#">About</a>
+    <a href="#">Tecnologias</a>
+  </div>
+</div>
 
 
+<!-- //******************---------DROPDOWN NAV HEADER-------**************************// -->
 
-<!--------------------about----------------------------->
+
+<!-- //******************---------ABOUT-------**************************// -->
 
 <div class="about-container" id="about" >
   <div class="about">
@@ -61,10 +86,12 @@
   </div>
   
 </div>
-  <!-- //**---------------about------------------**// -->
+<!-- //******************---------ABOUT-------**************************// -->
 
 
-<!--------------------projects----------------------------->
+
+
+<!-- //******************---------PROJECTS-------**************************// -->
 
 
   <div class="hidden" class="projects-container" id="projects" >
@@ -82,7 +109,7 @@
     </div>
   </div>
 
-  <!-- //**------------------projects------------------**// -->
+<!-- //******************---------PROJECTS-------**************************// -->
 
 
 <!--------------------educacion----------------------------->
@@ -90,17 +117,20 @@
   <!-- /ss/**---------------educacion------------------**// -->
 <script> 
 
-// ----------------------- MODAL POPUP-----------------//
+
+
+
+//******************---------MODAL POPUP FUNCTION-------**************************// -->
   const popup = document.querySelector('.popup');
   window.onload = function (){
     setTimeout(function(){
       popup.classList.add("open-popup")
     }, 50)
   }
-// ----------------------- MODAL POPUP-----------------//
+  // <!-- //******************---------MODAL POPUP FUNCTION-------**************************// -->
 
 
-  // ---------------------MODAL POPUP CLOSE FUNCTION---------------//
+  // <!-- //******************---------MODAL POPUP CLOSE FUNCTION-------**************************// -->
   function closePopup(){
     var img = document.getElementById('popImg');
     img.src = 'otacon1.png';
@@ -120,7 +150,9 @@
     document.getElementById("about").style.display = "flex"
     }
   
-  // ---------------------MODAL POPUP CLOSE FUNCTION---------------//
+    // <!-- //******************---------MODAL POPUP CLOSE FUNCTION-------**************************// -->
+
+
 
 </script>
 </body>
