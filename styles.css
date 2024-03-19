@@ -163,6 +163,7 @@ nav {
 #about {
     display: none;
     visibility: hidden;
+    background-image: url(back.png);
 }
 
 .about-container{
