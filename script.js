@@ -19,10 +19,9 @@
     img.src = 'otacon1.png';
     document.getElementById('btn').style.color = "rgb(197, 144, 197)";
     document.getElementById('btn').style.background = "rgb(86, 31, 89)";
-    $('#btn').click(
     setTimeout(() => {
       closeclose();
-    }, 2000);)
+    }, 2000);
   }
 
 
