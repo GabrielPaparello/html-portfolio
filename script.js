@@ -7,7 +7,7 @@
   const popup = document.getElementById('popup');
   window.onload = function (){
     setTimeout(function(){
-      popup.classListAdd("open-popup")
+      popup.classList.add("open-popup")
     }, 50)
   }
   // <!-- //******************---------MODAL POPUP FUNCTION-------**************************// -->
