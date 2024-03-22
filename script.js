@@ -38,7 +38,7 @@
 
 
   function closeclose(){
-    popup.classAdd("open-popup")
+    popup.addClass("open-popup")
     $("#headerContainer").css(display, visible);
     $("#about").css(display, visible);
     $("#about").css(display, flex);
