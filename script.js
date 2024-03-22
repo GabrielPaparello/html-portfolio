@@ -27,7 +27,7 @@
 
 
   function closeclose(){
-    popup.classList.remove("open-popup")
+    popup.removeClass("open-popup")
     document.getElementById("headerContainer").style.visibility = "visible"
     document.getElementById("about").style.visibility = "visible"
     document.getElementById("about").style.display = "flex"
