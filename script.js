@@ -4,10 +4,10 @@
 
 
 //******************---------MODAL POPUP FUNCTION-------**************************// -->
-  const popup = $('#popup');
+  const popup = document.getElementById('popup');
   window.onload = function (){
     setTimeout(function(){
-      popup.addClass("open-popup")
+      popup.classListAdd("open-popup")
     }, 50)
   }
   // <!-- //******************---------MODAL POPUP FUNCTION-------**************************// -->
