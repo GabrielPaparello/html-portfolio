@@ -13,11 +13,11 @@
 //******************---------MODAL POPUP FUNCTION-------**************************// -->
   const popup = $('#popup');
   // window.onload = 
-  function (){
+  popup.ready(function () {
     setTimeout(function(){
       popup.addClass("open-popup");
     }, 50)
-  }
+  })
   // <!-- //******************---------MODAL POPUP FUNCTION-------**************************// -->
 
 
