@@ -29,7 +29,7 @@
     btnj.click(function(){
 
       $('#popImg').attr("src", "otacon1.png");
-      $('#btn').css({'color' : 'rgb(197, 144, 197', 'background-color': "rgb(86, 31, 89)"});      
+      $('#btn').css({'color' : 'rgb(197, 144, 197)', 'background-color': "rgb(86, 31, 89)"});      
       setTimeout(() => {
         closeclose();
       }, 2000);
