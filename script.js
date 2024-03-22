@@ -4,7 +4,7 @@
 
 
 //******************---------MODAL POPUP FUNCTION-------**************************// -->
-  const popup = document.querySelector('.popup');
+  const popup = $('.popup');
   window.onload = function (){
     setTimeout(function(){
       popup.classList.add("open-popup")
