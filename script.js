@@ -7,7 +7,7 @@
   const popup = $('#popup');
   window.onload = function (){
     setTimeout(function(){
-      popup.classList.add("open-popup")
+      popup.addClass(".open-popup")
     }, 50)
   }
   // <!-- //******************---------MODAL POPUP FUNCTION-------**************************// -->
