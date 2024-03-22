@@ -3,7 +3,7 @@
 $('#popup').ready(function(){
   setTimeout(function (){
     $('#popup').addClass('open-popup');
-  })
+  }, 50)
 })
 
 
