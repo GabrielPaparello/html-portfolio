@@ -10,7 +10,7 @@ $('#popup').ready(function(){
 
 $('#btn').click(function(){
       $('popup').slideUp();
-};)
+})
 
 
 
